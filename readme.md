@@ -27,7 +27,7 @@
 ## Explanation
 
 ### Purpose
-The `draw` function in the MakerDAO contract is used to withdraw a specified amount of DAI from a collateralized debt position (CDP). This function ensures that the user can draw out DAI against their collateral, maintaining the necessary balance and debt limits.
+The `draw` function in the MakerDAO smart contract is designed to allow users to generate DAI tokens against their collateralized debt positions. This function is integral to the MakerDAO system, which enables decentralized borrowing and lending. When a user calls the `draw` function, they specify the amount of DAI they want to generate, and the function ensures that the user's collateral ratio remains above the required threshold to maintain the stability and solvency of the MakerDAO protocol. By minting new DAI, the function facilitates liquidity provision and financial operations within the decentralized finance ecosystem.
 
 ### Detailed Usage
 The function works as follows:
